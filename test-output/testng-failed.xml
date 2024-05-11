@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.LoginPageTest">
+      <class name="tests.UserMenuTest">
         <methods>
+          <include name="verifyMyProfile_TC06"/>
           <include name="tearDownConfig"/>
-          <include name="postConditions"/>
-          <include name="verifyLoginWithCorrectCredentials1"/>
           <include name="preConditions"/>
+          <include name="postConditions"/>
           <include name="doConfiguration"/>
         </methods>
-      </class> <!-- tests.LoginPageTest -->
+      </class> <!-- tests.UserMenuTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

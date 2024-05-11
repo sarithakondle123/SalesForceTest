@@ -221,18 +221,23 @@ public class UserMenuPage extends BasePage{
 
 	public boolean selectUserMenuOption(WebDriver driver, String option) {
 		boolean isOptionVerified = false;
+		logger.info("Selecting an user menu option: "+option);
 		WebElement userMenuOption = driver.findElement(By.xpath("//*[text()='" + option + "']"));
 		if (WaitUtils.waitForElement(driver, userMenuOption)) {
+			logger.debug(option+" was visible");
 			userMenuOption.click();
+			logger.debug(option+" was clicked");
 			isOptionVerified = true;
 		} else {
 			System.out.println(option + " Option is not visible");
+			logger.debug(option+" could not be selected");
 		}
 		return isOptionVerified;
 	}
 
 	public void selectEditIcon(WebDriver driver) {
 		if (WaitUtils.waitForElement(driver, editContactButton)) {
+			
 			editContactButton.click();
 		} else {
 			System.out.println("Edit contact button was not visible");

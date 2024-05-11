@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 03 10:03:54 EDT 2024</td>
+<td>Started on:</td><td>Sat May 11 14:01:50 EDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5579 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18678 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,7 +68,7 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,24 +76,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.LoginPageTest.postConditions()'><b>postConditions</b><br>Test class: tests.LoginPageTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
-	at tests.LoginPageTest.postConditions(LoginPageTest.java:32)
+<td title='tests.UserMenuTest.verifyMyProfile_TC06()'><b>verifyMyProfile_TC06</b><br>Test class: tests.UserMenuTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at tests.UserMenuTest.verifyMyProfile_TC06(UserMenuTest.java:50)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace271944754", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace271944754'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
-	at tests.LoginPageTest.postConditions(LoginPageTest.java:32)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace964094970", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace964094970'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at tests.UserMenuTest.verifyMyProfile_TC06(UserMenuTest.java:50)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-	at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:779)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:755)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
@@ -118,7 +113,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>tests.LoginPageTest@765d7657</td></tr>
+<td>tests.UserMenuTest@5e4bd84a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -129,10 +124,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.LoginPageTest.loginErrorMessage()'><b>loginErrorMessage</b><br>Test class: tests.LoginPageTest</td>
+<td title='tests.LoginPageTest.verifyLoginWithCorrectCredentials1()'><b>verifyLoginWithCorrectCredentials1</b><br>Test class: tests.LoginPageTest</td>
+<td></td>
+<td>11</td>
+<td>tests.LoginPageTest@386f0da3</td></tr>
+<tr>
+<td title='tests.LoginPageTest.verifyWrongCrendentials()'><b>verifyWrongCrendentials</b><br>Test class: tests.LoginPageTest</td>
 <td></td>
 <td>3</td>
-<td>tests.LoginPageTest@765d7657</td></tr>
+<td>tests.LoginPageTest@386f0da3</td></tr>
 </table><p>
 </body>
 </html>

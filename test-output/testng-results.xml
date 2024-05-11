@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-06T17:21:52 EDT" name="Default suite" finished-at="2024-05-06T17:22:12 EDT" duration-ms="19710">
+  <suite started-at="2024-05-11T14:37:20 EDT" name="Default suite" finished-at="2024-05-11T14:38:15 EDT" duration-ms="54583">
     <groups>
     </groups>
-    <test started-at="2024-05-06T17:21:52 EDT" name="Default test" finished-at="2024-05-06T17:22:12 EDT" duration-ms="19710">
-      <class name="tests.LoginPageTest">
-        <test-method is-config="true" signature="doConfiguration()[pri:0, instance:tests.LoginPageTest@233795b6]" started-at="2024-05-06T17:21:52 EDT" name="doConfiguration" finished-at="2024-05-06T17:21:52 EDT" duration-ms="189" status="PASS">
+    <test started-at="2024-05-11T14:37:20 EDT" name="Default test" finished-at="2024-05-11T14:38:15 EDT" duration-ms="54583">
+      <class name="tests.UserMenuTest">
+        <test-method is-config="true" signature="doConfiguration()[pri:0, instance:tests.UserMenuTest@2e1ef60]" started-at="2024-05-11T14:37:20 EDT" name="doConfiguration" finished-at="2024-05-11T14:37:20 EDT" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doConfiguration -->
-        <test-method is-config="true" signature="preConditions()[pri:0, instance:tests.LoginPageTest@233795b6]" started-at="2024-05-06T17:21:52 EDT" name="preConditions" finished-at="2024-05-06T17:21:54 EDT" duration-ms="1899" status="PASS">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:tests.UserMenuTest@2e1ef60]" started-at="2024-05-11T14:37:20 EDT" name="preConditions" finished-at="2024-05-11T14:37:22 EDT" duration-ms="1666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preConditions -->
-        <test-method signature="verifyLoginWithCorrectCredentials1()[pri:0, instance:tests.LoginPageTest@233795b6]" started-at="2024-05-06T17:21:54 EDT" name="verifyLoginWithCorrectCredentials1" finished-at="2024-05-06T17:22:07 EDT" duration-ms="12828" status="PASS">
+        <test-method signature="verifyMyProfile_TC06()[pri:0, instance:tests.UserMenuTest@2e1ef60]" started-at="2024-05-11T14:37:22 EDT" name="verifyMyProfile_TC06" finished-at="2024-05-11T14:38:15 EDT" duration-ms="52778" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithCorrectCredentials1 -->
-        <test-method is-config="true" signature="postConditions()[pri:0, instance:tests.LoginPageTest@233795b6]" started-at="2024-05-06T17:22:07 EDT" name="postConditions" finished-at="2024-05-06T17:22:07 EDT" duration-ms="203" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postConditions -->
-        <test-method is-config="true" signature="preConditions()[pri:0, instance:tests.LoginPageTest@233795b6]" started-at="2024-05-06T17:22:07 EDT" name="preConditions" finished-at="2024-05-06T17:22:08 EDT" duration-ms="960" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preConditions -->
-        <test-method signature="verifyWrongCrendentials()[pri:0, instance:tests.LoginPageTest@233795b6]" started-at="2024-05-06T17:22:08 EDT" name="verifyWrongCrendentials" finished-at="2024-05-06T17:22:11 EDT" duration-ms="3461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyWrongCrendentials -->
-        <test-method is-config="true" signature="postConditions()[pri:0, instance:tests.LoginPageTest@233795b6]" started-at="2024-05-06T17:22:11 EDT" name="postConditions" finished-at="2024-05-06T17:22:12 EDT" duration-ms="325" status="PASS">
+        </test-method> <!-- verifyMyProfile_TC06 -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:tests.UserMenuTest@2e1ef60]" started-at="2024-05-11T14:38:15 EDT" name="postConditions" finished-at="2024-05-11T14:38:15 EDT" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postConditions -->
-        <test-method is-config="true" signature="tearDownConfig()[pri:0, instance:tests.LoginPageTest@233795b6]" started-at="2024-05-06T17:22:12 EDT" name="tearDownConfig" finished-at="2024-05-06T17:22:12 EDT" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="tearDownConfig()[pri:0, instance:tests.UserMenuTest@2e1ef60]" started-at="2024-05-11T14:38:15 EDT" name="tearDownConfig" finished-at="2024-05-11T14:38:15 EDT" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownConfig -->
-      </class> <!-- tests.LoginPageTest -->
+      </class> <!-- tests.UserMenuTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

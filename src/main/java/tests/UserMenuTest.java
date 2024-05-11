@@ -3,6 +3,7 @@ package tests;
 import listeners.TestListener;
 
 import utils.DataUtils;
+import constants.FileConstants;
 
 import pages.LoginPage;
 import pages.UserMenuPage;
@@ -44,6 +45,7 @@ public WebDriver driver;
 	@Test
 	public void verifyMyProfile_TC06() throws IOException, InterruptedException,Exception {
 	
+		WebDriver driver = BaseTest.getDriver();
 		LoginPage lp = new LoginPage(driver);
 		UserMenuPage ump = new UserMenuPage(driver);
 		
@@ -58,6 +60,12 @@ public WebDriver driver;
 		Assert.assertTrue(ump.selectUserMenuOption(driver, "My Profile"), "UserMenu option should be selected");
 		
 		ump.selectEditIcon(driver);
+		//ump.selectEditIcon(driver);
+		Assert.assertTrue(ump.verifyEditContactIframe(driver), "Iframe should be loaded");
+		Assert.assertTrue(ump.verifyLastNameChangeInAboutTab(driver, "QA"), "LastName should be changed");
+		Assert.assertTrue(ump.verifyCreatePost(driver, "Hello JAva"), "Post should be created");
+		//Assert.assertTrue(ump.verifyFileUpload(driver, FileConstants.FILE_PATH), "File should be uploaded successfully");
+		Assert.assertTrue(ump.verifyPhotoUpload(driver, FileConstants.IMAGE_PATH), "Photo should be uploaded successfully");
 	}
 	
 	

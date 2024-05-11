@@ -26,7 +26,7 @@ public class BaseTest {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	public static ThreadLocal<ExtentTest> threadExtentTest = new ThreadLocal<ExtentTest>();
-	 public static Logger logger = LogManager.getLogger("BaseTest");
+	 public static Logger logger = LogManager.getLogger();
 	
 	@BeforeSuite
 	public void doConfiguration() {
