@@ -6,6 +6,10 @@
   
   <properties>
 		<log4jversion>2.18.0</log4jversion>
+	  
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+
 	</properties>
 	
 	<build>
